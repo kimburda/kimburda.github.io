@@ -1662,19 +1662,38 @@ input, select, textarea {
 		/* Education */
 		.education-entry {
 		    margin-bottom: 20px;
+		    padding: 15px; /* Add padding for better spacing */
+		    background-color: rgba(27, 31, 34, 0.85); /* Dark background color */
+		    border-radius: 8px; /* Rounded corners */
 		}
 		
 		.education-entry h3 {
-		    margin-bottom: 5px;
-		    color: #FFFFFF; /* Color */
+		    margin-bottom: 10px; /* Increase margin for spacing */
+		    color: #FFFFFF; /* White color for text */
+		    font-size: 1.2rem; /* Adjust font size */
 		}
 		
 		.education-entry p {
-		    margin: 2px 0;
-		    padding-left: 20px; /* Indent */
+		    margin: 5px 0; /* Increase margin for spacing */
+		    color: #CCCCCC; /* Light gray text color */
 		}
 		
 		.education-entry p strong {
 		    display: inline-block;
-		    width: 100px; /* width */
+		    width: 100px; /* Adjust width */
+		    margin-right: 10px; /* Add some margin between label and value */
+		    font-weight: bold; /* Make text bold */
+		}
+		
+		@media screen and (max-width: 768px) {
+		    .education-entry p {
+		        padding-left: 0; /* Remove left padding on paragraphs */
+		        margin: 2px 0; /* Keep margin for spacing */
+		    }
+		    
+		    .education-entry p strong {
+		        width: 90px; /* Reduce width to fit better on smaller screens */
+		        display: block; /* Display each pair on a new line */
+		        margin-bottom: 5px; /* Add space between lines */
+		    }
 		}
