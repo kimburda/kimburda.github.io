@@ -1676,5 +1676,5 @@ input, select, textarea {
 		
 		.education-entry p strong {
 		    display: inline-block;
-		    width: 50px; /* width */
+		    width: 100px; /* width */
 		}
