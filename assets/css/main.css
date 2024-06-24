@@ -1697,3 +1697,18 @@ input, select, textarea {
 		        margin-bottom: 5px; 
 		    }
 		}
+
+		/* About me paragraphs*/
+		#intro p {
+		    padding: 15px; 
+		    background-color: rgba(40, 45, 50, 0.85); 
+		    border-radius: 8px; 
+		    margin-bottom: 15px;
+		    color: #FFFFFF; 
+		}
+		
+		@media screen and (max-width: 768px) {
+		    #intro p {
+		        padding: 10px; 
+		    }
+		}
