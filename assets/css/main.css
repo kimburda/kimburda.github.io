@@ -1662,38 +1662,38 @@ input, select, textarea {
 		/* Education */
 		.education-entry {
 		    margin-bottom: 20px;
-		    padding: 15px; /* Add padding for better spacing */
-		    background-color: rgba(40, 45, 50, 0.85); /* Dark background color */
-		    border-radius: 8px; /* Rounded corners */
+		    padding: 15px; /* spacing */
+		    background-color: rgba(40, 45, 50, 0.85); /* background color */
+		    border-radius: 8px; /* corners */
 		}
 		
 		.education-entry h3 {
-		    margin-bottom: 10px; /* Increase margin for spacing */
-		    color: #FFFFFF; /* White color for text */
-		    font-size: 1.2rem; /* Adjust font size */
+		    margin-bottom: 10px; 
+		    color: #FFFFFF; /*  text */
+		    font-size: 1.2rem; 
 		}
 		
 		.education-entry p {
-		    margin: 5px 0; /* Increase margin for spacing */
+		    margin: 5px 0; 
 		    color: #CCCCCC; /* Light gray text color */
 		}
 		
 		.education-entry p strong {
 		    display: inline-block;
-		    width: 100px; /* Adjust width */
-		    margin-right: 10px; /* Add some margin between label and value */
-		    font-weight: bold; /* Make text bold */
+		    width: 100px; /* width */
+		    margin-right: 10px; /* margin between label and value */
+		    font-weight: bold; /* bold text */
 		}
 		
 		@media screen and (max-width: 768px) {
 		    .education-entry p {
-		        padding-left: 0; /* Remove left padding on paragraphs */
-		        margin: 2px 0; /* Keep margin for spacing */
+		        padding-left: 0; /* Remove left padding */
+		        margin: 2px 0; 
 		    }
 		    
 		    .education-entry p strong {
-		        width: 90px; /* Reduce width to fit better on smaller screens */
-		        display: block; /* Display each pair on a new line */
-		        margin-bottom: 5px; /* Add space between lines */
+		        width: 90px; 
+		        display: block; 
+		        margin-bottom: 5px; 
 		    }
 		}
