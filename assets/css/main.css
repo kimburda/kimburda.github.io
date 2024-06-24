@@ -1685,16 +1685,49 @@ input, select, textarea {
 		    font-weight: bold; /* bold text */
 		}
 		
+		/* Certifications */
+		.certifications {
+		    margin-bottom: 20px;
+		    padding: 15px; /* spacing */
+		    background-color: rgba(40, 45, 50, 0.85); /* background color */
+		    border-radius: 8px; /* corners */
+		}
+		
+		.certifications hr {
+		    border: none;
+		    border-top: 1px solid #FFFFFF; /* division line color */
+		    margin: 10px 0 15px; /* margin around the division line */
+		}
+		
+		.certifications h3 {
+		    margin-bottom: 10px; 
+		    color: #FFFFFF; /* text color */
+		    font-size: 1.2rem; 
+		}
+		
+		.certifications p {
+		    margin: 5px 0; 
+		    color: #FFFFFF; /* white text color */
+		}
+		
+		.certifications p strong {
+		    display: inline-block;
+		    width: 100px; /* width */
+		    margin-right: 10px; /* margin between label and value */
+		    font-weight: bold; /* bold text */
+		}
+		
 		@media screen and (max-width: 768px) {
-		    .education-entry p {
+		    .education-entry p,
+		    .certifications p {
 		        padding-left: 0; /* Remove left padding */
 		        margin: 2px 0; 
 		    }
 		    
-		    .education-entry p strong {
+		    .education-entry p strong,
+		    .certifications p strong {
 		        width: 90px; 
 		        display: block; 
 		        margin-bottom: 5px; 
 		    }
 		}
-
