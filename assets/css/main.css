@@ -1740,3 +1740,42 @@ input, select, textarea {
 		        border-radius: 0; /* No border radius on mobile */
 		    }
 		}
+
+
+		/* Contact Section */
+		#contact p {
+		    color: #FFFFFF; /* Match the color of the text */
+		    font-size: 1.1rem; /* Slightly larger font size */
+		    margin: 10px 0; /* Margin between contact details */
+		}
+		
+		#contact p a {
+		    color: #FFFFFF; /* Match the color of the text */
+		    text-decoration: none; /* Remove underline */
+		    font-weight: bold; /* Bold text */
+		}
+		
+		#contact p a:hover {
+		    text-decoration: underline; /* Add underline on hover */
+		}
+		
+		#contact p strong {
+		    font-weight: bold; /* Bold text */
+		}
+		
+		.icons {
+		    margin-top: 20px; /* Margin above social icons */
+		    display: flex; /* Flexbox layout for icons */
+		    justify-content: center; /* Center align the icons */
+		    gap: 15px; /* Spacing between icons */
+		}
+		
+		.icons a {
+		    color: #FFFFFF; /* Icon color */
+		    font-size: 1.5rem; /* Icon size */
+		    transition: color 0.3s; /* Smooth color transition */
+		}
+		
+		.icons a:hover {
+		    color: #FFD700; /* Change color on hover */
+		}
