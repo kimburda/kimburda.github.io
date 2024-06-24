@@ -1688,9 +1688,6 @@ input, select, textarea {
 		/* Certifications */
 		.certifications {
 		    margin-bottom: 20px;
-		    padding: 15px; /* spacing */
-		    background-color: rgba(40, 45, 50, 0.85); /* background color */
-		    border-radius: 8px; /* corners */
 		}
 		
 		.certifications hr {
@@ -1702,19 +1699,10 @@ input, select, textarea {
 		.certifications h3 {
 		    margin-bottom: 10px; 
 		    color: #FFFFFF; /* text color */
-		    font-size: 1.2rem; 
-		}
-		
-		.certifications p {
-		    margin: 5px 0; 
-		    color: #FFFFFF; /* white text color */
-		}
-		
-		.certifications p strong {
-		    display: inline-block;
-		    width: 100px; /* width */
-		    margin-right: 10px; /* margin between label and value */
+		    font-size: 1.5rem; /* larger font size for certifications heading */
 		    font-weight: bold; /* bold text */
+		    text-align: center; /* center align the heading */
+		    text-transform: uppercase; /* convert to uppercase */
 		}
 		
 		@media screen and (max-width: 768px) {
@@ -1729,5 +1717,11 @@ input, select, textarea {
 		        width: 90px; 
 		        display: block; 
 		        margin-bottom: 5px; 
+		    }
+		
+		    .certifications {
+		        padding: 0; /* Remove padding for certifications on mobile */
+		        background-color: transparent; /* No background color on mobile */
+		        border-radius: 0; /* No border radius on mobile */
 		    }
 		}
