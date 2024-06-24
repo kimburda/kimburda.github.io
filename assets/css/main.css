@@ -1698,21 +1698,3 @@ input, select, textarea {
 		    }
 		}
 
-		/* About me paragraphs*/
-		#intro {
-		    padding: 20px; /* Add padding for better spacing */
-		    background-color: rgba(27, 31, 34, 0.85); /* Dark background color */
-		    border-radius: 8px; /* Rounded corners */
-		    margin-bottom: 20px; /* Margin between sections */
-		    color: #FFFFFF; /* White text color */
-		}
-		
-		#intro p {
-		    margin-bottom: 10px; /* Margin between paragraphs */
-		}
-		
-		@media screen and (max-width: 768px) {
-		    #intro {
-		        padding: 15px; /* Adjust padding on smaller screens */
-		    }
-		}
