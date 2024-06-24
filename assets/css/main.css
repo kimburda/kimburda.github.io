@@ -1706,6 +1706,9 @@ input, select, textarea {
 		}
 		
 		.certification-entry {
+		    padding: 15px; /* spacing */
+		    background-color: rgba(40, 45, 50, 0.85); /* background color */
+		    border-radius: 8px; /* corners */
 		    margin-bottom: 10px; /* spacing between certification entries */
 		}
 		
@@ -1714,6 +1717,7 @@ input, select, textarea {
 		    font-weight: bold; /* bold text */
 		    text-transform: uppercase; /* convert to uppercase */
 		    margin-bottom: 5px; /* spacing below each certification title */
+		    text-align: left; /* align certification title to the left */
 		}
 		
 		@media screen and (max-width: 768px) {
