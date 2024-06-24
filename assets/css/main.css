@@ -1662,27 +1662,27 @@ input, select, textarea {
 		/* Education */
 		.education-entry {
 		    margin-bottom: 20px;
-		    padding: 15px; /* spacing */
-		    background-color: rgba(40, 45, 50, 0.85); /* background color */
-		    border-radius: 8px; /* corners */
+		    padding: 15px; 
+		    background-color: rgba(40, 45, 50, 0.85); 
+		    border-radius: 8px; 
 		}
 		
 		.education-entry h3 {
 		    margin-bottom: 10px; 
-		    color: #FFFFFF; /*  text */
+		    color: #FFFFFF;
 		    font-size: 1.2rem; 
 		}
 		
 		.education-entry p {
 		    margin: 5px 0; 
-		    color: #FFFFFF; /* white text color */
+		    color: #FFFFFF; 
 		}
 		
 		.education-entry p strong {
 		    display: inline-block;
-		    width: 100px; /* width */
-		    margin-right: 10px; /* margin between label and value */
-		    font-weight: bold; /* bold text */
+		    width: 100px; 
+		    margin-right: 10px; 
+		    font-weight: bold; 
 		}
 		
 		/* Certifications */
@@ -1692,38 +1692,38 @@ input, select, textarea {
 		
 		.certifications hr {
 		    border: none;
-		    border-top: 1px solid #FFFFFF; /* division line color */
-		    margin: 10px 0 15px; /* margin around the division line */
+		    border-top: 1px solid #FFFFFF; 
+		    margin: 10px 0 15px; 
 		}
 		
 		.certifications h3 {
 		    margin-bottom: 10px; 
-		    color: #FFFFFF; /* text color */
-		    font-size: 1.5rem; /* larger font size for certifications heading */
-		    font-weight: bold; /* bold text */
-		    text-align: center; /* center align the heading */
-		    text-transform: uppercase; /* convert to uppercase */
+		    color: #FFFFFF; 
+		    font-size: 1.5rem; 
+		    font-weight: bold; 
+		    text-align: center; 
+		    text-transform: uppercase; 
 		}
 		
 		.certification-entry {
-		    padding: 15px; /* spacing */
-		    background-color: rgba(40, 45, 50, 0.85); /* background color */
-		    border-radius: 8px; /* corners */
-		    margin-bottom: 10px; /* spacing between certification entries */
+		    padding: 15px; 
+		    background-color: rgba(40, 45, 50, 0.85);
+		    border-radius: 8px; 
+		    margin-bottom: 10px; 
 		}
 		
 		.certification-entry h3 {
-		    font-size: 1.2rem; /* smaller font size for certification entries */
-		    font-weight: bold; /* bold text */
-		    text-transform: uppercase; /* convert to uppercase */
-		    margin-bottom: 5px; /* spacing below each certification title */
-		    text-align: left; /* align certification title to the left */
+		    font-size: 1.2rem; 
+		    font-weight: bold; 
+		    text-transform: uppercase; 
+		    margin-bottom: 5px; 
+		    text-align: left; 
 		}
 		
 		@media screen and (max-width: 768px) {
 		    .education-entry p,
 		    .certifications p {
-		        padding-left: 0; /* Remove left padding */
+		        padding-left: 0; 
 		        margin: 2px 0; 
 		    }
 		    
@@ -1735,47 +1735,47 @@ input, select, textarea {
 		    }
 		
 		    .certifications {
-		        padding: 0; /* Remove padding for certifications on mobile */
-		        background-color: transparent; /* No background color on mobile */
-		        border-radius: 0; /* No border radius on mobile */
+		        padding: 0; 
+		        background-color: transparent; 
+		        border-radius: 0;
 		    }
 		}
 
 
 		/* Contact Section */
 		#contact p {
-		    color: #FFFFFF; /* Match the color of the text */
-		    font-size: 1.1rem; /* Slightly larger font size */
-		    margin: 10px 0; /* Margin between contact details */
+		    color: #FFFFFF; 
+		    font-size: 1.1rem; 
+		    margin: 10px 0; 
 		}
 		
 		#contact p a {
-		    color: #FFFFFF; /* Match the color of the text */
-		    text-decoration: none; /* Remove underline */
-		    font-weight: bold; /* Bold text */
+		    color: #FFFFFF; 
+		    text-decoration: none; 
+		    font-weight: bold; 
 		}
 		
 		#contact p a:hover {
-		    text-decoration: underline; /* Add underline on hover */
+		    text-decoration: underline; 
 		}
 		
 		#contact p strong {
-		    font-weight: bold; /* Bold text */
+		    font-weight: bold; 
 		}
 		
 		.icons {
-		    margin-top: 20px; /* Margin above social icons */
-		    display: flex; /* Flexbox layout for icons */
-		    justify-content: center; /* Center align the icons */
-		    gap: 15px; /* Spacing between icons */
+		    margin-top: 20px; 
+		    display: flex; 
+		    justify-content: center; 
+		    gap: 15px; 
 		}
 		
 		.icons a {
-		    color: #FFFFFF; /* Icon color */
-		    font-size: 1.5rem; /* Icon size */
-		    transition: color 0.3s; /* Smooth color transition */
+		    color: #FFFFFF; 
+		    font-size: 1.5rem; 
+		    transition: color 0.3s; 
 		}
 		
 		.icons a:hover {
-		    color: #FFD700; /* Change color on hover */
+		    color: #FFD700; 
 		}
