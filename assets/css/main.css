@@ -1705,6 +1705,17 @@ input, select, textarea {
 		    text-transform: uppercase; /* convert to uppercase */
 		}
 		
+		.certification-entry {
+		    margin-bottom: 10px; /* spacing between certification entries */
+		}
+		
+		.certification-entry h3 {
+		    font-size: 1.2rem; /* smaller font size for certification entries */
+		    font-weight: bold; /* bold text */
+		    text-transform: uppercase; /* convert to uppercase */
+		    margin-bottom: 5px; /* spacing below each certification title */
+		}
+		
 		@media screen and (max-width: 768px) {
 		    .education-entry p,
 		    .certifications p {
