@@ -1699,16 +1699,20 @@ input, select, textarea {
 		}
 
 		/* About me paragraphs*/
+		#intro {
+		    padding: 20px; /* Add padding for better spacing */
+		    background-color: rgba(27, 31, 34, 0.85); /* Dark background color */
+		    border-radius: 8px; /* Rounded corners */
+		    margin-bottom: 20px; /* Margin between sections */
+		    color: #FFFFFF; /* White text color */
+		}
+		
 		#intro p {
-		    padding: 15px; 
-		    background-color: rgba(40, 45, 50, 0.85); 
-		    border-radius: 8px; 
-		    margin-bottom: 15px;
-		    color: #FFFFFF; 
+		    margin-bottom: 10px; /* Margin between paragraphs */
 		}
 		
 		@media screen and (max-width: 768px) {
-		    #intro p {
-		        padding: 10px; 
+		    #intro {
+		        padding: 15px; /* Adjust padding on smaller screens */
 		    }
 		}
