@@ -1795,26 +1795,25 @@ input, select, textarea {
 		}
 		
 		.project-entry p {
+		    display: flex;
+		    flex-wrap: wrap;
+		    align-items: center;
 		    margin: 5px 0; 
 		    color: #FFFFFF; 
 		}
 		
 		.project-entry p strong {
-		    display: inline-block;
-		    width: 100px; 
 		    margin-right: 10px; 
 		    font-weight: bold; 
 		}
 		
 		@media screen and (max-width: 768px) {
 		    .project-entry p {
-		        padding-left: 0; 
-		        margin: 2px 0; 
+		        flex-direction: column;
+		        align-items: flex-start;
 		    }
 		    
 		    .project-entry p strong {
-		        width: 90px; 
-		        display: block; 
 		        margin-bottom: 5px; 
 		    }
 		}
