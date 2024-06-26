@@ -1779,3 +1779,42 @@ input, select, textarea {
 		.icons a:hover {
 		    color: #FFD700; 
 		}
+
+		/* Projects Section */
+		.project-entry {
+		    margin-bottom: 20px;
+		    padding: 15px;
+		    background-color: rgba(40, 45, 50, 0.85); 
+		    border-radius: 8px; 
+		}
+		
+		.project-entry h3 {
+		    margin-bottom: 10px; 
+		    color: #FFFFFF; 
+		    font-size: 1.2rem; 
+		}
+		
+		.project-entry p {
+		    margin: 5px 0; 
+		    color: #FFFFFF; 
+		}
+		
+		.project-entry p strong {
+		    display: inline-block;
+		    width: 100px; 
+		    margin-right: 10px; 
+		    font-weight: bold; 
+		}
+		
+		@media screen and (max-width: 768px) {
+		    .project-entry p {
+		        padding-left: 0; 
+		        margin: 2px 0; 
+		    }
+		    
+		    .project-entry p strong {
+		        width: 90px; 
+		        display: block; 
+		        margin-bottom: 5px; 
+		    }
+		}
